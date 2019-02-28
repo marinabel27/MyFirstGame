@@ -4,17 +4,21 @@
  * and open the template in the editor.
  */
 package myfirstgame;
-import java.util.Random;
-import java.util.Scanner;
+
 import classes.App;
-import java.io.IOException;
+
 /**
  *
- * @author pupil
+ * @author Melnikov
  */
 public class MyFirstGame {
-        public static void main(String[] args) {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
         App app = new App();
-        app.firstGame();
+        app.run();
+    }
     
-}}
+}
